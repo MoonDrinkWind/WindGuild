@@ -1,0 +1,29 @@
+windGuild:
+  database:
+    #数据库类型 选项[Mysql,SqLite]
+    type: SqLite
+    #数据库链接 选项为SqLite时可忽略
+    connection: localhost
+    #数据库端口 选项为SqLite时可以忽略
+    port: 3306
+    #数据库账号
+    username: root
+    #数据库密码
+    password: 123456
+    #数据库名
+    name: minecraft
+    #数据库链接附加参数 建议默认不修改
+    parameter: ?useSSL=true&serverTimezone=UTC
+
+  create:
+    #创建公会所需价格
+    spend: 10.0
+
+  #插件前戳
+  prefix: §a[WindGuild]-->§b
+
+  #一个玩家最大拥有公会数量
+  maxGuild: 1
+
+  #是否开启公会头衔
+  enableGuildPrefix: true

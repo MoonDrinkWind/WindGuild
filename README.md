@@ -11,3 +11,6 @@
 所需权限: windGuild.refuse  
 /WindGuild delete [公会名称] 删除公会  
 所需权限: windGuild.delete  
+/WindGuild setPrefix [公会名称] 设置公会头衔
+所需权限: windGuild.setPrefix
+依赖: Vault

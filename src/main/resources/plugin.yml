@@ -1,0 +1,7 @@
+name: WindGuild
+version: ${project.version}
+main: china.moondrinkwind.minecraft.team.windguild.WindGuild
+api-version: 1.13
+depend: [Vault]
+authors: [MoonDrinkWind, AtBar]
+description: This is a guild plugin
